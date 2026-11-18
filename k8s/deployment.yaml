@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: ghcr.io/knthbyj/k8s-cicd-lab:latest
+          image: ghcr.io/knthbyj/k8s-cicd-lab:220d805d7e1371fda88f35b8ac674be88b72aadc
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
